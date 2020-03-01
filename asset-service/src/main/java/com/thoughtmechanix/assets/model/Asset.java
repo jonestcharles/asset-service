@@ -1,7 +1,6 @@
 package com.thoughtmechanix.assets.model;
 
 public class Asset {
-    // TODO: do we need join columns, etc.?
     private String id;
     private String organizationId;
     private String assetName;

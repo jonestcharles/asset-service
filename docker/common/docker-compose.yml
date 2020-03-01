@@ -1,8 +1,6 @@
 version: '2'
 services:
   assetservice:
-    image: tylerjones/tmx-asset-service:latest
+    image: tj-ms/tylerjones/tmx-asset-service:assgn1_2
     ports:
       - "8080:8080"
-    environment:
-        PROFILE: "default"
